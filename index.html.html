@@ -1,0 +1,1489 @@
+<head>
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WC24DZ');
+    </script>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="UTF-8">
+    <title class="title_hidden_header"></title>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="https://cdn.propstory.com/assets/css/common.css">
+    <link rel="stylesheet" href="https://cdn.propstory.com/assets/vendor/intlTelInput/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://propstory.in/lakewoods-assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://propstory.in/windchants-assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="https://propstory.in/windchants-assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://propstory.in/windchants-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://propstory.in/windchants-assets/css/style.css">
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://vjs.zencdn.net/7.1.0/video-js.css"> -->
+
+
+
+    <style>
+        /* .one-slider {
+      background-image: url("https://cdn.propstory.com/campaigns/joyvillepunesp/6344fbb6cbaf7UPLOAD%20HERE%202000%20X%20931.png");
+    }
+    .two-slider {
+      background-image: url("https://cdn.propstory.com/campaigns/joyvillepunesp/6344fbb6cbaf7UPLOAD%20HERE%202000%20X%20931.png");
+    }
+    .three-slider {
+      background-image: url("https://cdn.propstory.com/campaigns/joyvillepunesp/6344fbb6cbaf7UPLOAD%20HERE%202000%20X%20931.png");
+    } */
+
+        .swiper .swiper-slide .container {
+            position: relative;
+            z-index: 9;
+            padding-left: 100px;
+            margin-top: -500px;
+        }
+
+        .swiper .swiper-slide .container h1 {
+            font-size: 5vw;
+            /* color: #fff; */
+            font-family: "Playfair Display", serif;
+            color: #ebcfa7;
+            margin-bottom: 20px;
+        }
+
+        .swiper .swiper-slide .container a {
+            height: 60px;
+            line-height: 56px;
+            float: left;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            /* padding-bottom: 10px; */
+            position: relative;
+            border: 2px solid #ebcfa7;
+            padding: 0 40px;
+            box-shadow: 0 0 20px rgb(235 207 167 / 40%);
+            transition: 0.25s ease-in-out;
+
+        }
+
+        .success_msg,
+        .error_msg {
+            display: none;
+        }
+
+        .mob-ph {
+            text-align: center;
+            display: none;
+        }
+
+        .mob-ph a {
+            color: white;
+
+        }
+
+        input[type=tel] {
+            width: 100%;
+            height: 54px;
+            border: 1px solid #eee;
+            padding: 0 20px;
+        }
+
+        .unselectable {
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            color: #000;
+        }
+
+        .location-text {
+            z-index: 2;
+        }
+
+        .modal-header img {
+            padding-left: 164px;
+            width: 68%;
+        }
+
+        @media (max-width:768px) {
+            .modal-header img {
+                padding-left: 113px !important;
+                width: 68% !important;
+            }
+
+            .floor_img {
+                height: auto !important;
+            }
+
+            .carousel-item img {
+                margin-top: 4rem !important;
+            }
+
+            .intro figure .holder img {
+                box-shadow: 10px 10px 50px rgb(0 0 0 / 20%);
+                width: 525px;
+                height: auto !important;
+            }
+
+            .Highlights_img {
+                height: auto !important;
+            }
+
+            .ptb {
+                padding: 1rem !important;
+            }
+
+            .test_img {
+                width: 35% !important;
+                height: 12rem;
+                margin-top: 12rem;
+            }
+
+            .navbar {
+                display: none;
+            }
+
+            #mob-nav {
+                display: block !important;
+            }
+
+            #contactt {
+                padding-top: 40px;
+            }
+
+            #bbt:hover {
+                background-color: #000;
+                color: white;
+            }
+
+            #bbtt:hover {
+                background-color: #9f8054;
+                color: white;
+            }
+
+            #btt:hover {
+                background-color: white;
+                color: #9f8054;
+            }
+
+            .disclaimer {
+                font-size: 8px;
+            }
+
+            #blink {
+                font-size: 40px;
+                font-weight: bold;
+                color: #2d38be;
+                transition: 0.8s;
+            }
+
+            .mob-ph {
+                text-align: center;
+                display: block;
+                font-size: 20px;
+                margin-left: 20%;
+                padding: 10px;
+            }
+
+            .mob-ph a {
+                color: white;
+
+            }
+        }
+
+        header {
+            border: black;
+            border-width: 2px;
+            box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.06);
+        }
+
+        .head_container {
+            padding: 19px 12px 0 10px;
+            overflow: hidden;
+            height: 4rem;
+            background: rgb(0 0 0 / 82%);
+            border-bottom: 1px solid #fff;
+        }
+
+        .logo {
+            float: left;
+            margin-left: 20px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .menu {
+            margin-top: 5px;
+            float: right;
+        }
+
+        .icon {
+            display: none;
+            color: #fff !important;
+        }
+
+        .test_img {
+            width: 20%;
+            border-radius: 50%;
+        }
+
+        .ptb {
+            padding: 4rem;
+        }
+
+        @media screen and (max-width: 835px) {
+            .logo img {
+                height: 40px;
+            }
+
+            ul>li:first-of-type {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 991px),
+        only screen and (max-device-width: 991px) {
+            .intro figure {
+                width: 100%;
+                margin-bottom: 80px;
+            }
+        }
+
+        @media screen and (max-width: 690px) {
+            .icon {
+                font-weight: 900 !important;
+                font-size: 27px !important;
+                padding: 0;
+                margin: 0;
+                margin-top: -9px;
+                display: flex;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+        }
+
+        .btn-brown {
+            background-color: #9f8054;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 99999;
+            top: 4rem;
+            left: 0;
+            background: #26282b;
+            overflow-x: hidden;
+            transition: 0.2s;
+            padding-top: 87px;
+            box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.24);
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #mob-nav {
+            display: none;
+        }
+
+        .floor_img {
+            height: 400px;
+            width: 100%;
+        }
+
+        .Highlights_img {
+            margin-top: 2rem;
+            width: 100%;
+            height: auto;
+        }
+
+        dt {
+            font-weight: 600 !important;
+        }
+
+        .intro figure .holder img {
+            box-shadow: 10px 10px 50px rgb(0 0 0 / 20%);
+            width: 525px;
+            height: 25rem;
+        }
+
+        /*.about-img {
+    top: 0px !important;
+}*/
+
+        .content-box p {
+            font-size: 16px !important;
+        }
+
+        .recent-gallery,
+        .intro,
+        .certificates {
+            padding: 20px 0 !important;
+        }
+
+        .get-consultation .content-box:after {
+            z-index: 1;
+        }
+
+        .carousel-item img {
+            margin-top: 5rem;
+        }
+
+        .gal img {
+            height: 12rem;
+            width: 100%;
+        }
+
+        .benefits figure:after,
+        .chat,
+        .btnn,
+        .call-to-action1,
+        .call-to-action1 p,
+        .head_container,
+        .navbar,
+        .sidenav,
+        .btn-brown {
+            background-color: #4d4b54 !important;
+        }
+
+        .carousel-item img {
+            margin-top: 0rem;
+        }
+
+        .property-customization {
+
+            margin: 54px 0;
+
+        }
+
+        .navbar .container .upper-side .logo img {
+            height: 82px;
+        }
+
+        .property-customization {
+
+            padding: 21px 0;
+
+        }
+
+        .history-font {
+            display: block;
+            font-size: 42px;
+            font-family: "Playfair Display", serif;
+            margin-bottom: 15px;
+        }
+
+        @media only screen and (max-width: 575px),
+        only screen and (max-device-width: 575px) {
+            .history-font {
+                font-size: 25px;
+            }
+        }
+
+        .apple-font {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        .about-img {
+            top: 0px;
+        }
+    </style>
+
+</head>
+
+<body contenteditable="true" class="page-loaded" style="">
+    <header id="mob-nav">
+        <div class="head_container fixed-top" style="padding-right: 29px;">
+            <div class="logo">
+                <img src="" desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcnbxriLogo-1gina.png"
+                    mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcnbxriLogo-1gina.png" alt="LOGO"
+                    style="opacity: 1;">
+            </div>
+            <div class="menu" id="myTopnav">
+                <ul>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()"><i
+                            class="fa fa-bars"></i></a>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="mySidenav" class="sidenav" contenteditable="false">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-close"></i></a>
+        <ul class="list-unstyled">
+            <li><a href="#silder-header">HOME</a></li>
+            <li><a href="#heighlights">HIGHLIGHTS</a> </li>
+            <li><a href="#amenities">AMENITIES</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#floor-plan">FLOOR PLAN</a></li>
+            <li><a href="#location">LOCATION</a></li>
+        </ul>
+    </div>
+    <!-- end side-navigation -->
+    <nav class="navbar" style="border-bottom: 1px solid #fff; background: #000; z-index: 99999999 !important;">
+        <div class="container">
+            <div class="upper-side">
+                <div class="logo">
+                    <a href="#">
+                        <img src=""
+                            desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcnbxriLogo-1gina.png"
+                            mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcnbxriLogo-1gina.png"
+                            alt="M3M Sky City">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#silder-header">HOME</a></li>
+                        <li><a href="#heighlights">HIGHLIGHTS</a> </li>
+                        <li><a href="#amenities">AMENITIES</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#floor-plan">FLOOR PLAN</a></li>
+                        <li><a href="#location">LOCATION</a></li>
+                        <li><a href="tel:+919650821666"><i class="fa fa-phone" aria-hidden="true"></i>+91 9650821666</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hamburger"> <span></span> <span></span> <span></span> </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="silder-header">
+        <!-- Slider main container -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="" alt="" class="w-100 img101" style="opacity: 1;"
+                        mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcqd202mobile.jpg"
+                        desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcqbu0hbannr.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3rpmgg1.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3u8xsg8.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> -->
+        </div>
+
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="row">
+                <div class="col wow fadeInUp" data-wow-delay="0s"
+                    style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+                    <figure> <img src=""
+                            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dbd9c4234locatiion.png"
+                            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dbe247c0alocatiion.png"
+                            alt="Image" style="opacity: 1;">
+                        <b></b>
+                    </figure>
+                    <h6>LOCATION</h6>
+                    <span class="extra">Bommasandra , Bangalore</span>
+                </div>
+                <!-- end col -->
+                <div class="col wow fadeInUp" data-wow-delay="0.05s"
+                    style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+                    <figure> <img src=""
+                            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcc394ec5icon-benefits02.png"
+                            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcc1a2c32icon-benefits02.png"
+                            alt="Image" style="opacity: 1;"> <b></b> </figure>
+                    <h6>TYPE</h6>
+                    <span class="extra">Luxurious Apartments</span>
+                </div>
+                <!-- end col -->
+                <div class="col wow fadeInUp" data-wow-delay="0.10s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <figure> <img src=""
+                            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dcfbdd21eicon-benefits03.png"
+                            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd02b1bcbicon-benefits03.png"
+                            alt="Image" style="opacity: 1;"> <b></b> </figure>
+                    <h6>POSSESSION</h6>
+                    <span class="extra">New Launch</span>
+                </div>
+                <!-- end col -->
+                <div class="col wow fadeInUp" data-wow-delay="0.15s"
+                    style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+                    <figure> <img src=""
+                            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd8899fa4money.png"
+                            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343dd8e40f2fmoney.png"
+                            alt="Image" style="opacity: 1;"> <b></b>
+                    </figure>
+                    <h6>PRICE</h6>
+                    <span class="extra">₹62.5 Lacs* Onwards</span>
+                </div>
+                <!-- end col -->
+                <div class="col wow fadeInUp" data-wow-delay="0.20s"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <figure> <img src=""
+                            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343ddc1b7f6cbedroom.png"
+                            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/6343ddc7ab2f5bedroom.png"
+                            alt="Image" style="opacity: 1;">
+                        <b></b>
+                    </figure>
+                    <h6>BEDROOMS</h6>
+                    <span   id="heighlights" class="extra">2 &amp; 3 BHK apartments</span>
+                </div>
+                <!-- end col -->
+            </div>
+        </div>
+    </section>
+    <!-- end benefits -->
+    <section class="intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 about-img text-center ">
+                    <!-- <figure class="btnn"> -->
+                    <!-- <div class="pattern-bg" data-stellar-ratio="1.07" style="display: block; top: -18.825px;"></div> -->
+                    <div class="holder" data-stellar-ratio="1.10" style="display: block; top: 40px;"> <img src=""
+                            mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb9zgqoUntitled%20design%20%281%29.jpg"
+                            desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb9qk03Untitled%20design.jpg"
+                            style="opacity: 1;" class=""></div>
+                    <!-- </figure> -->
+                </div>
+                <!-- end col-6 -->
+                <div class="col-lg-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="content-box">
+                        <h4>About Gina Artize</h4>
+                        <div class="unselectable">
+                            <p>Get ready to discover the exclusive range of 2 and 3 BHKs that await you at Gina Artize.
+                                Designed to meet all your needs, these homes provide a harmonious balance of comfort and
+                                functionality. Unwind in your spacious apartment ﬂooded with natural light and ample
+                                room for your creativity to thrive</p>
+                        </div>
+                        <div class="unselectable">
+                            <ul>
+                                <li>Gina Artize presenting 2,3 BHK apartments starting from ₹62.5 Lacs* onwards in
+                                    Bommasandra, Bangalore</li>
+                                <li>Spread across 1.67 acres of land with 60% open space and landscaped gardens.</li>
+                                <li>Luxurious and well-rounded living experience with its top-notch amenities and
+                                    convenient location.</li>
+                                <li>All our homes are Vaastu requisites to meet our customer requirements.</li>
+                            </ul>
+                        </div>
+                        <a id="bbt" href="/#" data-toggle="modal" data-target="#enquire-form" class="enquire-button"
+                            style="background-color: rgb(0, 0, 0);"> Enquire Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- end logos -->
+    <section class="property-customization" id="amenities">
+        <div class="video-bg">
+            <img src="" mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/634405189515c7.jpg"
+                desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/634405147a1767.jpg">
+        </div>
+        <!-- end video-bg -->
+        <div class="container">
+            <div class="row align-items-center  ">
+                <div class="col-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <h4>Gina Artize Amenities</h4>
+                </div>
+                <div class="col-md-3 d-flex  align-items-center "><img
+                        src="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcjsa2iHealth.png" class="" alt="">
+                    <div class="list-amenities ">
+                        <h6>HEALTH</h6>
+                        <ul>
+                            <li>Swimming Pool With Toddler's Pool</li>
+                            <li>Well Equipped Gym</li>
+                            <li>jogging Track</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex  align-items-center "><img
+                        src="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcn6f7iSports.png" class="" alt="">
+                    <div class="list-amenities ">
+                        <h6>SPORTS</h6>
+                        <ul>
+                            <li>Billiards</li>
+                            <li>Table Tennis</li>
+                            <li>Board Games</li>
+                            <li>Play Area</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center "><img
+                        src="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcn5l4zECO-Friendly-System.png"
+                        class="" alt="">
+                    <div class="list-amenities ">
+                        <h6>ECO FRIENDLY STSTEMS</h6>
+                        <ul>
+                            <li>Sewage Treatment</li>
+                            <li>Rain Water Harvesting</li>
+                            <li>Landscaping with Pergola and Seating</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center "><img
+                        src="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcn80arSECURITY-%26-SAFETY.png"
+                        class="" alt="">
+                    <div class="list-amenities ">
+                        <h6>SECURITY &amp; SAFETY</h6>
+                        <ul>
+                            <li>24-hour Security</li>
+                            <li>Intercom Connectivity</li>
+                            <li>Advanced Fire Fighting Systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end property-customization -->
+
+    <section class="recent-gallery" id="gallery">
+        <div class="container">
+            <div class="col-lg-12 wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">
+                <h4>Gina Artize Gallery</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 class="text-center " style="font-weight: 600; font-size: 20px;">Exterior View</h6>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item carousel-item-next carousel-item-left">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3s6o8g5.jpg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3s6o8g5.jpg"
+                                    alt="Second slide" style="opacity: 1;">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3u8xsg8.jpg"
+                                    alt="Third slide">
+                            </div>
+                            <div class="carousel-item active carousel-item-left">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3u8xsg8.jpg"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                        <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span> -->
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-center  " style="font-weight: 600; font-size: 20px;">Interior View</h6>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3rpmgg1.jpg"
+                                    alt="First slide" style="opacity: 1;">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3tba0g2.jpg"
+                                    alt="Second slide" style="opacity: 1;">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3tkc6g4.jpg"
+                                    alt="Third slide" style="opacity: 1;">
+                            </div>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpb3tkc6g4.jpg"
+                                    alt="Third slide" style="opacity: 1;">
+                            </div>
+                        </div>
+                        <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span> -->
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- end recent-gallery -->
+
+    <!-- end property-calculator -->
+    <div class="col-lg-12 wow fadeInUp my-5" data-wow-delay="0.05s" id="floor-plan"
+        style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+        <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#tab-one">
+                    <h4>Floor Plan</h4>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#tab-twoo" role="tab" aria-selected="true">
+                    <h4> Unit Plan</h4>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" style="padding-top: 0.5rem">
+            <div class="tab-pane fade" id="tab-one">
+                <figure>
+                    <a href="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcf8kikFloorPlaneGana.jpg"
+                        data-fancybox=""><img src="" class="img-fluid floor_img"
+                            desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcf8kikFloorPlaneGana.jpg"
+                            mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcf8kikFloorPlaneGana.jpg"
+                            alt="Image" style="opacity: 1"></a>
+                </figure>
+            </div>
+
+
+            <div class="tab-pane fade active show" id="tab-twoo">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img class="d-block w-100 floor_img"
+                                src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcitvzl1-BHK-North-FacingGina.jpg"
+                                alt="First slide" style="opacity: 1;">
+                        </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 floor_img"
+                                src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpciw2tfginaplane4.jpg"
+                                alt="Second slide" style="opacity: 1;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 floor_img"
+                                src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpciwfx6ginaplane3.jpg"
+                                alt="Third slide" style="opacity: 1;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 floor_img"
+                                src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpciwxrmginaplane2.jpg"
+                                alt="Third slide" style="opacity: 1;">
+                        </div>
+                    </div>
+                    <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                              data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                              data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                          </a> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end recent-gallery -->
+
+
+
+
+    <!-- property-plans -->
+    <section class="get-consultation" data-stellar-background-ratio="0.9" id="location"
+        style="background-position: 100% -19.5263px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <figure><a class="location-map"
+                            href="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcezs7eLocationGinaArtize.jpg"
+                            data-fancybox=""><img src=""
+                                desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcezs7eLocationGinaArtize.jpg"
+                                mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4k3mllpcezs7eLocationGinaArtize.jpg"
+                                class="img-fluid" style="opacity: 1;"></a></figure>
+                </div>
+                <div class="col-lg-6 fadeInUp wow" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="content-box btnn">
+                        <h4>Gina Artize Location</h4>
+                        <ul class="location-text">
+                            <li>The project is located on NH-66, close to Bommasandra Industrial Area and upcoming
+                                Bommasandra Metro station.</li>
+                            <li>The project is also close to Bannerghatta National Park, which is a popular tourist
+                                attraction and wildlife sanctuary.</li>
+                            <li>Nearby landmarks are&nbsp;SBR Lucky Mall, DMart Super Market,&nbsp;Decathlon within 5
+                                KM.</li>
+                            <li>10 mins Drive to NICE Road.</li>
+                            <li>Reputed institutes like&nbsp;St. Francis de Sales Degree College,&nbsp;Bangalore College
+                                of Engg. and Tech. &amp;&nbsp;PES University within 5-7 KM.&nbsp;</li>
+                            <li>5 Hospitals within the vicinity of 7 KM.</li>
+                            <li>Close to&nbsp;Electronic City,&nbsp;HCL Technologies,&nbsp;Tech Mahindra &amp; Infosys
+                                within 7 KM.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end intro -->
+
+
+
+    <!-- end certificates -->
+    <section class="certificates" style="background-color:#dcdddf !important;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-12  ">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15562.367894472976!2d77.66240579530256!3d12.804976174091196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c13f14bc557%3A0x3dfbb1e7201a0186!2sRK%20Twp%2C%20Yarandahalli%2C%20Bommasandra%2C%20Karnataka%20560099!5e0!3m2!1sen!2sin!4v1700748649407!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+
+                <div class="col-lg-5 col-md-12 wow  animated animated animated animated animated animated animated animated animated"
+                    id="contactt" style="visibility: visible;">
+                    <a href=":tel+919650821666" style="text-decoration:none;">
+                        <!-- <h4 style="text-align:center;color:black;">+919650821666</h4> -->
+                    </a>
+                    <center>
+                        <h4>Get The Best Deals And Offers</h4>
+                    </center>
+
+                    <form role="form" id="contactForm" name="contactForm" method="POST" action=""
+                        novalidate="novalidate" class="mt-5">
+                        <div class="enq_form">
+                            <div class="row success_msg">
+                                <h4>We appreciate your interest in our project. Our team shall
+                                    contact you very soon.
+                                </h4>
+                            </div>
+                            <div class="row error_msg">
+                                <h4>Sorry! something went wrong. Please try again.</h4>
+                            </div>
+                            <div class="sidenav_form">
+                                <input type="hidden" value="#" id="webid">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input type="text" class="f_control name" name="fname" id="fname"
+                                                placeholder="Full Name*">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group phone-open-div">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input type="text" class="f_control email" name="email" id="email"
+                                                placeholder="Email address*">
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-lg-12">
+                    <textarea rows="2" type="text" id="footer_form_query" name="query"
+                      placeholder="Write your message here..."></textarea>
+                  </div> -->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="text-center">
+                                                <button type="button"
+                                                    class="submit_button f_control btnn mt-3 shadow-sm fw-bold"
+                                                    style="padding: 10px; border: none; color: white; width: 100%;">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--end container -->
+    </section>
+
+    <!-- Testimonial -->
+    <!-- <section class="certificates">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <iframe width="100%" height="530" src="https://www.youtube.com/embed/SKGxwN4bq8M" title="Experion Windchants Client Testimonial-3 (Dr. Pradeep Sharma)" frameborder="0" autoplay="true" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+    <!-- Testimonial -->
+    <section class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="w-100 text-center h4 mt-2 history-font ">
+                    THE RICH HISTORY OF GINA ENGINEERING COMPANY
+                </div>
+                <div class="col-md-12 mt-3 apple-font mb-4  ">
+                    THE RICH HISTORY OF GINA ENGINEERING COMPANY from ground zero in 1964 to one of the leading Civil
+                    Engineering contractors today, Gina Engineering has built its legacy on a foundation of exceptional
+                    quality standards, operational excellence and innovation. The industry intelligence and experience
+                    cultivated over more than half a century has enabled us to deliver what clients expect of us - safe,
+                    smart, efficient infrastructures that make a difference in communities and economical outcomes while
+                    enhancing living. Our specially curated living spaces provide the perfect confluence of calmness and
+                    modern living.
+
+                    With a rich history from 1964, we take immense pride in being a leading name in Civil Engineering
+                    Construction. Our reach extends across the major cities of Karnataka, Tamil Nadu, Kerala and Andhra
+                    Pradesh, where we have executed over 100 million square feet of construction, proudly standing tall
+                    with more than 1,000 completed buildings.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" style="background-color: #dcdddf !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="text-center">
+                        <h5 style="font-weight: 500;">Site Address</h5>
+                        <p>RK Township, Bommasandra, Bengaluru 560099</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="disclaimer" style="color:#696969; padding-bottom:25px;">
+                <p></p>
+                <b>Disclaimer:</b> This is not the official website of developer &amp; property, it belongs to
+                authorized
+                channel partner for information purpose only. All rights for logo &amp; images are reserved to the
+                developer. This website is in the process of being updated. By accessing this website, the viewer
+                confirms that
+                the information including brochures and marketing collaterals on this website are solely for
+                informational
+                purposes only and the viewer has not relied on this information for making any booking/purchase in any
+                project
+                of the company. <a href="#" style="color:white;">Privacy Policy</a>
+            </div>
+            <ul>
+                <li><i class="fa fa-copyright"></i> 2022. All Rights Reserved</li>
+                <!-- <li><a href="tel:+919650821666"><i class="fa fa-phone" aria-hidden="true"></i> +91 9650821666&nbsp;</a></li> -->
+
+
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Modal -->
+    <div class="call-to-action1">
+        <div class="col-6" style="border-right: 1px solid #000;">
+            <a href="tel:+919650821666">
+                <p class="text-center">CALL NOW</p>
+            </a>
+        </div>
+        <div class="col-6 footer-right-call">
+            <a href="#" data-toggle="modal" data-target="#enquire-form">
+                <p class="text-center">ENQUIRE NOW</p>
+            </a>
+        </div>
+    </div>
+    <button type="button request-button" class="chat" data-toggle="modal" data-target="#enquire-form"><img src=""
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/634405ad4f17benvelope.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/634405b050aa7envelope.png" alt=""
+            class="img-fluid"></button>
+    <a href="https://api.whatsapp.com/send/?phone=+919650821666&amp;text=Hi! I'm Interested In Windchants"
+        class="whatsapp_float" target="_blank"><img src=""
+            desktopurl="https://cdn.propstory.com/campaigns/joyvillepunesp/634405956beaawhatsapp.png"
+            mobileurl="https://cdn.propstory.com/campaigns/joyvillepunesp/634405940f784whatsapp.png" alt="whatsapp"
+            class="img-fluid"></a>
+
+    <div class="modal fade" id="enquire-form" tabindex="-1" aria-labelledby="exampleModalLabel"
+        style="display: none; z-index: 999999999;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color:#000;">
+                <div class="modal-header">
+                    <img src=""
+                        desktopurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcnmigjLogo-2gina-model-logo.png"
+                        mobileurl="https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpcnmigjLogo-2gina-model-logo.png"
+                        alt="Image" style="opacity: 1;">
+
+                    <button type="button" class="close" style="color:white;" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-close"></i></span>
+                    </button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 col-12">
+                            <!-- <a href="tel:+919650821666" style="text-decoration:none;">
+                <h4 style="text-align:center;color:white;">+91 9650821666</h4>
+              </a> -->
+                            <p style="font-size: 18px; text-align: center;"><span style="color: white;">Thank you for
+                                    your interest in </span>
+                                <font color="#9f8054">Gina Artize</font>
+                                <font color="#ffffff">. To engage with us please fill in your details.</font>
+                            </p>
+                            <div class="enquire-popup">
+                                <div class="form-heading">
+                                </div>
+                                <form role="form" id="contactForm" name="contactForm" method="POST" action=""
+                                    novalidate="novalidate" class="mt-5">
+                                    <div class="enq_form">
+                                        <div class="row success_msg">
+                                            <h4>We appreciate your interest in our project. Our team shall
+                                                contact you very soon.
+                                            </h4>
+                                        </div>
+                                        <div class="row error_msg">
+                                            <h4>Sorry! something went wrong. Please try again.</h4>
+                                        </div>
+                                        <div class="sidenav_form">
+                                            <input type="hidden" value="#" id="webid">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="f_control name" name="fname"
+                                                            id="fname" placeholder="Full Name*">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group phone-open-div">
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="f_control email" name="email"
+                                                            id="email" placeholder="Email address*">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-lg-12">
+                    <textarea rows="2" type="text" id="footer_form_query" name="query"
+                      placeholder="Write your message here..."></textarea>
+                  </div> -->
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <div class="text-center">
+                                                            <button type="button"
+                                                                class="submit_button f_control mt-3 btnn shadow-sm fw-bold"
+                                                                style="padding: 10px; border: none; color: white;    width: 100%;">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://propstory.in/windchants-assets/js/jquery.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://propstory.in/windchants-assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://propstory.in/windchants-assets/js/swiper-bundle.min.js"></script>
+    <script src="https://propstory.in/windchants-assets/js/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://propstory.in/lakewoods-assets/js/wow.min.js"></script>
+    <script src="https://propstory.in/windchants-assets/js/isotope.js"></script>
+    <script src="https://propstory.in/windchants-assets/js/scripts.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.2.2/video.min.js"></script> -->
+
+
+    <script src="https://cdn.propstory.com/assets/vendor/intlTelInput/js/intlTelInput.js"></script>
+    <script src="https://cdn.propstory.com/assets/js/v1/common.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.propstory.com/assets/js/v1/form-submit-urbana.js"></script>
+    <script src="https://cdn.propstory.com/assets/js/v1/template_customization.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script> -->
+
+    <script type="text/javascript">
+        setTimeout(function () {
+
+            $('#enquire-form').modal();
+
+        }, 10000);
+        var navHeight = jQuery('header-area').height();
+        jQuery('body').on('click', 'header-area a', function (evt) {
+
+            evt.preventDefault();
+
+            var jQuerythis = jQuery(this);
+
+            jQuery('html, body').animate({
+
+                scrollTop: jQuery(jQuerythis.attr('href')).offset().top - navHeight
+
+            }, 900);
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1500);
+    </script>
+
+    <script>
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            //document.getElementById("header").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            //document.getElementById("header").style.marginLeft= "0";
+        };
+    </script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+
+    </script><iframe allow="join-ad-interest-group" data-tagging-id="AW-812624000/Remarketing"
+        data-load-time="1700833887473" height="0" width="0" style="display: none; visibility: hidden;"
+        src="https://td.doubleclick.net/td/rul/812624000?random=1700833887468&amp;cv=11&amp;fst=1700833887468&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He3b81v71991233&amp;gcd=11l1l1l1l1&amp;dma=0&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fmagicpages.propstory.com%2Fadmin%2FpageDetails%2F%3Fpage_id%3D655f281469b4c6125dbe0f11&amp;label=Remarketing&amp;hn=www.googleadservices.com&amp;frm=1&amp;auid=1201170595.1694149970&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.160%7CChromium%3B119.0.6045.160%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0"></iframe><iframe
+        allow="join-ad-interest-group" data-tagging-id="AW-812624000/Remarketing" data-load-time="1700836963930"
+        height="0" width="0" style="display: none; visibility: hidden;"
+        src="https://td.doubleclick.net/td/rul/812624000?random=1700836963925&amp;cv=11&amp;fst=1700836963925&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He3b81v71991233&amp;gcd=11l1l1l1l1&amp;dma=0&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fmagicpages.propstory.com%2Fadmin%2FpageDetails%2F%3Fpage_id%3D655f281469b4c6125dbe0f11&amp;label=Remarketing&amp;hn=www.googleadservices.com&amp;frm=1&amp;auid=1201170595.1694149970&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B119.0.6045.160%7CChromium%3B119.0.6045.160%7CNot%253FA_Brand%3B24.0.0.0&amp;uamb=0&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
